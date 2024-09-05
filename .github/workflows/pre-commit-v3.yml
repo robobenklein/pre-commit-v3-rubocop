@@ -27,3 +27,5 @@ jobs:
 
     - name: Get pre-commit version
       run: pre-commit --version
+    - name: Get ruby version
+      run: which -a ruby && ruby --version
