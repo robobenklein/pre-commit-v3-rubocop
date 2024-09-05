@@ -23,7 +23,7 @@ jobs:
       run: python -m pip install pre-commit
 
     - name: Run pre-commit
-      run: pre-commit run --show-diff-on-failure --color=always
+      run: pre-commit run --show-diff-on-failure --color=always --all-files
 
     - name: Get pre-commit version
       run: pre-commit --version
